@@ -1,0 +1,228 @@
+/* Estilos generales */
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #777;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Barra de título */
+
+#titulo {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#titulo h1 {
+    font-size: 42px;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Imagen del Papa */
+
+#imagen-papa {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+/* Apartado de Actualidad */
+
+#actualidad {
+    background-color: #f9f9f9;
+    padding: 50px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+#actualidad h2 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+#actualidad p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+#actualidad ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#actualidad li {
+    margin-bottom: 10px;
+}
+
+#actualidad a {
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#actualidad a:hover {
+    background-color: #777;
+}
+
+/* Apartado de Calendario */
+
+#calendario {
+    background-color: #fff;
+    padding: 50px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+#calendario h2 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+#calendario p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+#calendario table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#calendario th {
+    text-align: left;
+    font-weight: 700;
+}
+
+#calendario td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Apartado de Fotografías */
+
+.texto-animado {
+    position: relative;
+    animation: mover-texto 15s linear infinite;
+  }
+  
+  @keyframes mover-texto {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: calc(100% - 100px);
+    }
+    100% {
+      left: 0;
+    }
+  }
+  
+  body {
+    background-image: url("https://img.freepik.com/fotos-premium/textura-papel-libro-antiguo-hoja-amarilla-fondo-natural_160152-4536.jpg?w=2000");
+    background-repeat: repeat;
+  }
+  
+  .wrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilos para la sección de los mandamientos */
+.mandamientos {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+  }
+  
+  .mandamientos h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para la lista de mandamientos */
+  .mandamiento-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .mandamiento-item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Estilos para los números de los mandamientos */
+  .mandamiento-numero {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+  }
+  
+  /* Estilos para los títulos de los mandamientos */
+  .mandamiento-titulo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+  }
+  
+  /* Estilos para las descripciones de los mandamientos */
+  .mandamiento-descripcion {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+  
+  /* Estilos para las interacciones */
+  .mandamiento-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
